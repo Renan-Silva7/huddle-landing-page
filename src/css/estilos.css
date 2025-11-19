@@ -81,17 +81,26 @@ body {
     padding-bottom: 130px;
 }
 
-.footer {
+.footer .footer-container .redes-sociais {
     display: flex;
     justify-content: flex-end;
-    background-color: grey;
+    margin-right: 85px;
+    gap: 15px;
 }
 
-.footer .footer-container i {
-    font-size: 1.8rem;
+.footer .footer-container .redes-sociais a i {
+    border: 1.5px solid #fff;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 7px;
+    text-align: center;
+    font-size: 1.7rem;
     transition: 0.3s;
     color: #fff;
-    padding-right: 50px;
-    background-color: red;
 }
 
+.footer .footer-container .redes-sociais a i:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1.5px solid hsl(300, 69%, 71%);
+}
