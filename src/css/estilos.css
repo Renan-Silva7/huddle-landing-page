@@ -1,3 +1,97 @@
-body {
-    background-color: hsl(257, 40%, 49%);
+html {
+    font-size: 62.5%;
 }
+
+body {
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto 30px 120px;
+    padding: 0 40px;
+}
+
+.header img {
+    padding: 20px 30px 40px;
+    width: 220px;
+}
+
+.main {
+    max-height: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding-left: 188px;
+}
+
+.main .main-container {
+    max-width: 1200px;
+}
+
+.main .main-container .painel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    color: #fff;
+}
+
+.main .main-container .painel img {
+    width: 700px;
+}
+
+.main .main-container .painel h1 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 3.4rem;
+}
+
+.main .main-container .painel p {
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.main .main-container .painel a {
+    background-color: #fff;
+    font-size: 1.4rem;
+    color: hsl(257, 40%, 49%);
+    padding: 12px 50px;
+    border-radius: 30px;
+    width: fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.main .main-container .painel a:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.main .main-container .painel .texto {
+    display: flex;
+    max-width: 480px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 130px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: grey;
+}
+
+.footer .footer-container i {
+    font-size: 1.8rem;
+    transition: 0.3s;
+    color: #fff;
+    padding-right: 50px;
+    background-color: red;
+}
+
