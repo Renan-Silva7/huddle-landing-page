@@ -7,6 +7,7 @@ body {
     background-color: hsl(257, 40%, 49%);
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    height: 89vh;
 }
 
 .header {
@@ -15,7 +16,7 @@ body {
     padding: 0 40px;
 }
 
-.header img {
+.header .header-container img {
     padding: 20px 30px 40px;
     width: 220px;
 }
@@ -45,13 +46,13 @@ body {
 
 .main .main-container .painel h1 {
     text-align: left;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 3.4rem;
 }
 
 .main .main-container .painel p {
     text-align: left;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.5rem;
 }
 
